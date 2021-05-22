@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'Rau_testing' }
+    agent { label 'master' }
     stages {
         stage('build') {
             steps {
