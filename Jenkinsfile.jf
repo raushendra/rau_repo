@@ -8,8 +8,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'git --version'
-                sh 'mvn --version'
-                sh 'mkdir /mon123'
+                sh 'mvn --version'                
             }
         }
     }
