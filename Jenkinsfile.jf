@@ -8,6 +8,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'git --version'
+                sh 'maven --version'
                 sh 'mkdir /mon123'
             }
         }
